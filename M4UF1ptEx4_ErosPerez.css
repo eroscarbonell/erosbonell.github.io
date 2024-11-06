@@ -1,0 +1,56 @@
+/* Fuente personalizada (puedes usar Google Fonts o importar una fuente de Harry Potter) */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+
+/* Estilos generales */
+body {
+    background-color: #2f2e2d; /* Fondo oscuro similar a un castillo */
+    color: #d3c09b; /* Color claro para el texto */
+    font-family: 'Cinzel', serif; /* Fuente con estilo antiguo */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Estilo para los encabezados */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cinzel', serif;
+    color: #f0e6d2;
+    text-shadow: 2px 2px 4px #000000; /* Sombra para dar un efecto mágico */
+}
+
+/* Encabezado principal */
+h1 {
+    font-size: 3em;
+    margin-top: 20px;
+    text-align: center;
+    border-bottom: 2px solid #d3c09b;
+    padding-bottom: 10px;
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #b8860b; /* Color dorado similar a los detalles de Hogwarts */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f0e68c; /* Cambio de color al pasar el cursor */
+    text-shadow: 1px 1px 2px #000000;
+}
+
+/* Botones */
+button {
+    background-color: #6a492b;
+    color: #f0e6d2;
+    border: 2px solid #d3c09b;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Cinzel', serif;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #8b5e3c;
+}
